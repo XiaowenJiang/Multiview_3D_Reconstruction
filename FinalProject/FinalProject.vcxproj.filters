@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="SBA">
+      <UniqueIdentifier>{066293c4-16f8-4966-b996-0f86f8a08a7a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Calibration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SURFMatch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EstimateCameraPose.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectPoints.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cvsba-1.0.0\src\cvsba.cpp">
+      <Filter>SBA</Filter>
+    </ClCompile>
+    <ClCompile Include="cvsba-1.0.0\src\sba_chkjac.c">
+      <Filter>SBA</Filter>
+    </ClCompile>
+    <ClCompile Include="cvsba-1.0.0\src\sba_crsm.c">
+      <Filter>SBA</Filter>
+    </ClCompile>
+    <ClCompile Include="cvsba-1.0.0\src\sba_lapack.c">
+      <Filter>SBA</Filter>
+    </ClCompile>
+    <ClCompile Include="cvsba-1.0.0\src\sba_levmar.c">
+      <Filter>SBA</Filter>
+    </ClCompile>
+    <ClCompile Include="cvsba-1.0.0\src\sba_levmar_wrap.c">
+      <Filter>SBA</Filter>
+    </ClCompile>
+    <ClCompile Include="DrawPointCloud.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DenseReconstruction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Calibration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SURFMatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EstimateCameraPose.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectPoints.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cvsba-1.0.0\src\compiler.h">
+      <Filter>SBA</Filter>
+    </ClInclude>
+    <ClInclude Include="cvsba-1.0.0\src\cvsba.h">
+      <Filter>SBA</Filter>
+    </ClInclude>
+    <ClInclude Include="cvsba-1.0.0\src\sba.h">
+      <Filter>SBA</Filter>
+    </ClInclude>
+    <ClInclude Include="cvsba-1.0.0\src\sba_chkjac.h">
+      <Filter>SBA</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawPointCloud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DenseReconstruction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cvsba-1.0.0\src\sba_levmar.c.trytoparallelize">
+      <Filter>SBA</Filter>
+    </None>
+  </ItemGroup>
+</Project>
